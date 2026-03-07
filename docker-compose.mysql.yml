@@ -1,0 +1,40 @@
+services:
+  app:
+    image: bubbleemby/bubble-emby-admin:latest
+    container_name: bubble-emby-admin
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+    ports:
+      - "8668:8668"
+    environment:
+      TZ: Asia/Shanghai
+      CONFIG: /app/configs/config.yaml
+    volumes:
+      - ./docker-data/configs:/app/configs
+
+  mysql:
+    image: mysql:8.0
+    container_name: bubble-emby-admin-mysql
+    restart: unless-stopped
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    environment:
+      TZ: Asia/Shanghai
+      MYSQL_ROOT_PASSWORD: change-me
+      MYSQL_DATABASE: bubble_emby_admin
+    expose:
+      - "3306"
+    volumes:
+      - bubble-emby-admin-mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -p$$MYSQL_ROOT_PASSWORD --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+      start_period: 20s
+
+volumes:
+  bubble-emby-admin-mysql-data:

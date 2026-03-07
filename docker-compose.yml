@@ -1,0 +1,12 @@
+services:
+  app:
+    image: bubbleemby/bubble-emby-admin:latest
+    container_name: bubble-emby-admin
+    restart: unless-stopped
+    ports:
+      - "8668:8668"
+    environment:
+      TZ: Asia/Shanghai
+      CONFIG: /app/configs/config.yaml
+    volumes:
+      - ./docker-data/configs:/app/configs
