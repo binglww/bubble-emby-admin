@@ -1,3 +1,5 @@
+name: bubble-emby-admin
+
 services:
   app:
     image: bubbleemby/bubble-emby-admin:latest
