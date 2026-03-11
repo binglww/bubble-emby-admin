@@ -1,0 +1,9 @@
+{
+  "latest": "0.2.0",
+  "channel": "stable",
+  "dockerImage": "bubbleemby/bubble-emby-admin",
+  "dockerTag": "0.2.0",
+  "publishedAt": "2026-03-11T00:00:00Z",
+  "notesUrl": "https://github.com/binglww/bubble-emby-admin/blob/main/CHANGELOG.md",
+  "releaseNotes": "新增播放统计、Emby 实时会话、权限模板、从本地恢复用户到 Emby、Emby 简易探针。"
+}
