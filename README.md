@@ -160,6 +160,8 @@
 
 使用文件：`docker-compose.mysql.yml`
 
+启动前请先修改 [docker-compose.mysql.yml](docker-compose.mysql.yml) 里的 `MYSQL_ROOT_PASSWORD`，默认值 `change-me` 仅用于演示，不建议直接使用。
+
 ```bash
 docker compose -f docker-compose.mysql.yml up -d
 ```
@@ -188,11 +190,16 @@ http://服务器IP:8668
 
 首次安装时，请在安装页面填写实际数据库连接信息。
 
-常见填写方式：
+推荐填写方式：
 
-- 数据库与应用部署在同一台宿主机：`host.docker.internal` 或宿主机实际 IP
-- 数据库部署在独立服务器：数据库服务器 IP 或域名
-- 数据库部署在同一 Docker 网络中的其他容器：对应服务名或容器名
+- 使用 `docker-compose.mysql.yml` 内置 MySQL：数据库地址填 `mysql`，端口填 `3306`
+- 使用外部 MySQL 且数据库就在宿主机：优先填 `host.docker.internal`
+- 数据库部署在独立服务器：填写数据库服务器 IP 或域名
+- 数据库部署在同一 Docker 网络中的其他容器：填写对应服务名或容器名
+
+注意：
+
+- 不建议直接填写 `127.0.0.1`，容器内的 `127.0.0.1` 指向的是应用容器自己，不是宿主机数据库
 
 <a id="install"></a>
 ## 🔧 安装
