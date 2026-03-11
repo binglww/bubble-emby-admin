@@ -1,9 +1,9 @@
 {
-  "latest": "0.2.1",
+  "latest": "0.2.3",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.2.1",
-  "publishedAt": "2026-03-11T06:50:00Z",
+  "dockerTag": "0.2.3",
+  "publishedAt": "2026-03-11T09:00:00Z",
   "notesUrl": "https://github.com/binglww/bubble-emby-admin/blob/master/CHANGELOG.md",
-  "releaseNotes": "新增播放统计、Emby 实时会话、权限模板、从本地恢复用户到 Emby、Emby 简易探针。"
+  "releaseNotes": "新增线路管理、播放统计、Emby 实时会话、权限模板、从本地恢复用户到 Emby、Emby 简易探针。"
 }
