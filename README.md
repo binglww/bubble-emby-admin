@@ -47,10 +47,48 @@
   - 注册规则配置
   - 兑换规则配置
 
+- 📺 播放统计
+  - 用户详情播放统计
+  - 全站播放统计
+  - Emby 实时会话
+  - 热门内容排行
+  - 设备分析与客户端分布
+  - 基础风控与用户画像
+
 <a id="roadmap"></a>
 ## 🛠️ 开发计划
-- [ ] 更多功能正在开发中...
 
+### 已完成
+
+- [x] 用户管理主流程
+- [x] 异步任务
+- [x] 卡密系统
+- [x] 注册与公告系统
+- [x] 用户权限能力
+  - 用户权限配置
+  - 基础用户权限模板
+  - 权限模板批量同步
+- [x] Emby 管理增强
+  - Emby 简易探针
+  - Emby 设置页
+  - 从本地恢复用户到 Emby
+- [x] 播放统计
+  - 用户播放时长汇总
+  - 用户播放记录
+  - 用户设备 / IP 画像
+  - Emby `/Sessions` 实时会话看板
+  - 全站播放时长排行
+  - 用户 IP / 设备数量排行
+  - 全站设备使用排行
+  - 客户端占比与设备分布占比
+  - 热门影片 / 热门剧集排行
+  - 多 IP / 多设备 / 高频切换风控排行
+  - 用户画像
+
+### 开发中 / 待规划
+- [ ] 正在开发中...
+
+ 
 <a id="preview"></a>
 ## 🖼️ 界面预览
 
@@ -68,6 +106,13 @@
   <p>
     <img src="./assets/screenshots/admin-system.jpg" alt="系统设置" width="49%" />
     <img src="./assets/screenshots/admin-ccm.jpg" alt="卡密管理" width="49%" />
+  </p>
+  <p>
+    <img src="./assets/screenshots/admin-playback.png" alt="播放统计实时会话" width="49%" />
+    <img src="./assets/screenshots/admin-playback-2.png" alt="播放统计用户画像" width="49%" />
+  </p>
+  <p>
+    <img src="./assets/screenshots/admin-emby.png" alt="Emby 设置与模板" width="99%" />
   </p>
 </details>
 

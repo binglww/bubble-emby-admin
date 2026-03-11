@@ -15,6 +15,7 @@ services:
       CONFIG: /app/configs/config.yaml
     volumes:
       - ./docker-data/configs:/app/configs
+      - ./docker-data/data:/app/data
 
   mysql:
     image: mysql:8.0
