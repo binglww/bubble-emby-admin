@@ -30,6 +30,17 @@
   - 最近 30 天观看时长
   - 设备 / IP
   - 服务器线路
+  - 卡密续费
+
+- 🎬 求片系统
+  - 电影求片
+  - 整剧求片
+  - 单季求片
+  - 热门推荐与搜索
+  - 我的求片
+  - 用户求片次数限制
+  - 自动检测入库
+  - Emby Webhook 实时闭环
 
 - 🎫 卡密系统
   - 支持自定义天数卡密
@@ -49,11 +60,13 @@
 
 - ⚙️ 系统配置
   - Emby 服务配置
+  - Emby Webhook 配置
   - 站点名称配置
   - 登录提示配置
   - 注册规则配置
   - 兑换规则配置
   - 版本更新检查
+  - 求片设置
 
 - 🌐 线路管理
   - 独立线路管理页面
@@ -93,6 +106,17 @@
   - 最近 30 天观看时长
   - 设备 / IP
   - 服务器线路
+  - 多页面导航布局
+  - 卡密续费 / 兑换记录合并
+- [x] 求片系统
+  - 电影 / 整剧 / 单季求片
+  - 热门推荐与 TMDB 搜索
+  - 后台求片管理
+  - 求片设置
+  - MoviePilot 推送
+  - 用户求片次数限制
+  - 定时扫描自动闭环
+  - Emby Webhook 实时闭环
 - [x] 线路管理
   - 独立线路管理页面
   - 线路显示开关
@@ -138,6 +162,10 @@
   </p>
   <p>
     <img src="./assets/screenshots/admin-emby.png" alt="Emby 设置与模板" width="99%" />
+  </p>
+  <p>
+    <img src="./assets/screenshots/admin-media-request.png" alt="后台求片管理" width="49%" />
+    <img src="./assets/screenshots/user-media-requests.png" alt="用户求片页面" width="49%" />
   </p>
 </details>
 
