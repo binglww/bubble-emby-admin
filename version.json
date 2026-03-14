@@ -1,9 +1,9 @@
 {
-  "latest": "0.3.0",
+  "latest": "0.3.1",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.3.0",
-  "publishedAt": "2026-03-13T8:00:00Z",
+  "dockerTag": "0.3.1",
+  "publishedAt": "2026-03-14T17:50:00+08:00",
   "notesUrl": "https://github.com/binglww/bubble-emby-admin/blob/master/CHANGELOG.md",
-  "releaseNotes": "新增求片系统，更多介绍请查看GitHub仓库。"
+  "releaseNotes": "新增客户端黑名单功能，单用户启用/禁用改为同步执行，工作台增加求片待处理统计，用户列表列宽进一步优化。"
 }
