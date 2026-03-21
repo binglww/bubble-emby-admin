@@ -5,8 +5,6 @@
 
 <p align="center">
   <a href="#intro"><img src="https://img.shields.io/badge/Intro-%E4%BB%8B%E7%BB%8D-2563eb?style=for-the-badge" alt="介绍" /></a>
-  <a href="#roadmap"><img src="https://img.shields.io/badge/Roadmap-%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92-0f766e?style=for-the-badge" alt="开发计划" /></a>
-  <a href="#preview"><img src="https://img.shields.io/badge/Preview-%E7%95%8C%E9%9D%A2%E9%A2%84%E8%A7%88-db2777?style=for-the-badge" alt="界面预览" /></a>
   <a href="#image"><img src="https://img.shields.io/badge/Image-%E9%95%9C%E5%83%8F%E4%BF%A1%E6%81%AF-7c3aed?style=for-the-badge" alt="镜像" /></a>
   <a href="#deploy"><img src="https://img.shields.io/badge/Deploy-%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F-ea580c?style=for-the-badge" alt="部署方式" /></a>
   <a href="#install"><img src="https://img.shields.io/badge/Install-%E5%AE%89%E8%A3%85-0891b2?style=for-the-badge" alt="安装" /></a>
@@ -31,6 +29,9 @@
   - 最近 30 天观看时长
   - 设备 / IP
   - 服务器线路
+  - 本地优先登录，Emby 兜底激活
+  - 本地密码与 Emby 密码同步修改
+  - 过期 / 禁用账号仍可进入自助入口续费、改密和查看信息
   - 卡密续费
 
 - 🎬 求片系统
@@ -60,6 +61,30 @@
   - 普通公告
   - 重要公告
 
+- 🤖 Telegram 集成
+  - Telegram Mini App 用户入口
+  - Telegram 登录与账号绑定
+  - Telegram HTTP 代理
+  - 用户续费与求片入口
+  - 强制关注群与群组配置
+
+- 🧑‍💼 管理员能力
+  - 多管理员增删改查
+  - 安装创建的管理员保护
+  - 管理员 Telegram 绑定
+  - 管理员 Telegram 指令
+
+- 🔔 通知中心
+  - 管理员通知与用户通知分离处理
+  - 管理员个人通知接收偏好
+  - Telegram 管理员通知
+  - 用户通知独立投递
+
+- 📋 运行维护
+  - 运行日志页面
+  - 后台任务与系统任务
+  - 更新记录与版本升级
+
 - ⚙️ 系统配置
   - Emby 服务配置
   - Emby Webhook 配置
@@ -85,97 +110,6 @@
   - 热门内容排行
   - 设备分析与客户端分布
   - 基础风控与用户画像
-
-<a id="roadmap"></a>
-## 🛠️ 开发计划
-
-### 已完成
-
-- [x] 用户管理主流程
-- [x] 异步任务
-- [x] 卡密系统
-- [x] 注册与公告系统
-- [x] 用户权限能力
-  - 用户权限配置
-  - 基础用户权限模板
-  - 权限模板批量同步
-- [x] Emby 管理增强
-  - Emby 简易探针
-  - Emby 设置页
-  - 从本地恢复用户到 Emby
-  - 版本更新检查
-- [x] 用户中心
-  - 会员信息
-  - 上次活动
-  - 最近 30 天观看时长
-  - 设备 / IP
-  - 服务器线路
-  - 多页面导航布局
-  - 卡密续费 / 兑换记录合并
-- [x] 求片系统
-  - 电影 / 整剧 / 单季求片
-  - 热门推荐与 TMDB 搜索
-  - 后台求片管理
-  - 求片设置
-  - MoviePilot 推送
-  - 用户求片次数限制
-  - 定时扫描自动闭环
-  - Emby Webhook 实时闭环
-- [x] 客户端黑名单
-  - 自动禁用账户
-  - 管理员豁免客户端黑名单
-  - 单用户启用 / 禁用同步执行
-- [x] 线路管理
-  - 独立线路管理页面
-  - 线路显示开关
-  - 白名单线路控制
-- [x] 播放统计
-  - 用户播放时长汇总
-  - 用户播放记录
-  - 用户设备 / IP 画像
-  - Emby `/Sessions` 实时会话看板
-  - 全站播放时长排行
-  - 用户 IP / 设备数量排行
-  - 全站设备使用排行
-  - 客户端占比与设备分布占比
-  - 热门影片 / 热门剧集排行
-  - 多 IP / 多设备 / 高频切换风控排行
-  - 用户画像
-
-### 开发中 / 待规划
-- [ ] 正在开发中...
-
- 
-<a id="preview"></a>
-## 🖼️ 界面预览
-
-<details>
-  <summary>点击展开界面预览</summary>
-  <br />
-  <p>
-    <img src="./assets/screenshots/user-login.jpg" alt="用户登录" width="49%" />
-    <img src="./assets/screenshots/user-info.jpg" alt="用户信息" width="49%" />
-  </p>
-  <p>
-    <img src="./assets/screenshots/admin-dashboard.jpg" alt="后台首页" width="49%" />
-    <img src="./assets/screenshots/admin-user.jpg" alt="用户管理" width="49%" />
-  </p>
-  <p>
-    <img src="./assets/screenshots/admin-system.jpg" alt="系统设置" width="49%" />
-    <img src="./assets/screenshots/admin-ccm.jpg" alt="卡密管理" width="49%" />
-  </p>
-  <p>
-    <img src="./assets/screenshots/admin-playback.png" alt="播放统计实时会话" width="49%" />
-    <img src="./assets/screenshots/admin-playback-2.png" alt="播放统计用户画像" width="49%" />
-  </p>
-  <p>
-    <img src="./assets/screenshots/admin-emby.png" alt="Emby 设置与模板" width="99%" />
-  </p>
-  <p>
-    <img src="./assets/screenshots/admin-media-request.png" alt="后台求片管理" width="49%" />
-    <img src="./assets/screenshots/user-media-requests.png" alt="用户求片页面" width="49%" />
-  </p>
-</details>
 
 <a id="image"></a>
 ## 📦 镜像信息
