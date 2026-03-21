@@ -198,4 +198,4 @@ docker compose -f docker-compose.mysql.yml up -d
 <a id="changelog"></a>
 ## 📝 更新日志
 
-详细变更记录见：[CHANGELOG.md](./CHANGELOG.md)
+详细变更记录见：[更新记录](./guide/changelog.md)

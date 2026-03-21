@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress"
 
 export default defineConfig({
+  base: "/bubble-emby-admin/",
   lang: "zh-CN",
   title: "Bubble Emby Admin",
   description: "Bubble Emby Admin 部署与使用指南",
