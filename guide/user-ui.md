@@ -2,6 +2,10 @@
 
 ## 用户菜单
 
+### 注册
+
+![用户注册截图](/screenshots/user/register.png)
+
 ### 用户
 
 ![用户页面截图](/screenshots/user/profile.png)

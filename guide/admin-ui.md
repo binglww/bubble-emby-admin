@@ -1,5 +1,11 @@
 # 管理员后台
 
+## 登录
+
+### 登录
+
+![后台登录截图](/screenshots/admin/login.png)
+
 ## 工作台
 
 ### 工作台
@@ -45,6 +51,10 @@
 ### 管理员
 
 ![管理员截图](/screenshots/admin/admin-users.png)
+
+### 个人设置
+
+![个人设置截图](/screenshots/admin/profile.png)
 
 ### 系统配置
 
