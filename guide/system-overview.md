@@ -48,6 +48,8 @@ Bubble Emby Admin 是一套面向 Emby 管理场景的后台系统，核心目�
 - Telegram Bot 基础接入
 - Telegram HTTP 代理
 - Telegram Mini App
+- Telegram 自定义指令
+- Telegram 快捷求片与求片处理
 - 用户绑定和管理员绑定
 - 管理员通知
 - 菜单按钮和群组校验

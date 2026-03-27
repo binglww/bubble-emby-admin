@@ -54,3 +54,12 @@
 - `Token 已配置`
 - `Bot 用户名` 已自动回填
 - `Webhook` 模式下已完成 `注册 Webhook`
+
+## 相关进阶能力
+
+完成基础配置后，可继续查看以下能力：
+
+- [Telegram Mini App](/guide/telegram-mini-app)
+- [Telegram 自定义指令](/guide/telegram-custom-commands)
+- [求片功能](/guide/media-requests)
+- [管理员通知](/guide/admin-notifications)
