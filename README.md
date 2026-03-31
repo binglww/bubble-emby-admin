@@ -114,7 +114,7 @@
 <a id="image"></a>
 ## 📦 镜像信息
 
-- 镜像地址：`bubbleemby/bubble-emby-admin:latest`
+- 镜像地址：[bubbleemby/bubble-emby-admin:latest](https://hub.docker.com/r/bubbleemby/bubble-emby-admin)
 - 默认端口：`8668`
 - 容器内配置路径：`/app/configs/config.yaml`
 - 默认时区：`Asia/Shanghai`
