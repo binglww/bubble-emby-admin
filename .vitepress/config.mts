@@ -53,6 +53,7 @@ export default defineConfig({
         {
           text: "进阶配置",
           items: [
+            { text: "观看保号", link: "/guide/watch-keepalive" },
             { text: "Telegram Mini App", link: "/guide/telegram-mini-app" },
             { text: "Telegram 自定义指令", link: "/guide/telegram-custom-commands" },
             { text: "求片功能", link: "/guide/media-requests" },

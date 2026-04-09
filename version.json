@@ -1,9 +1,9 @@
 {
-  "latest": "0.3.8",
+  "latest": "0.3.9",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.3.8",
-  "publishedAt": "2026-04-03T19:58:26+08:00",
+  "dockerTag": "0.3.9",
+  "publishedAt": "2026-04-09T17:50:00+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.3.8 请查看更新日志。"
+  "releaseNotes": "v0.3.9 请查看更新日志。"
 }
