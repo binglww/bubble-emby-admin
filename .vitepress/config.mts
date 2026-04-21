@@ -7,6 +7,7 @@ export default defineConfig({
   description: "Bubble Emby Admin 部署与使用指南",
   cleanUrls: true,
   lastUpdated: true,
+  srcExclude: ["superpowers/**"],
   head: [["meta", { name: "theme-color", content: "#e25240" }]],
   themeConfig: {
     logo: {
@@ -43,21 +44,22 @@ export default defineConfig({
           ],
         },
         {
-          text: "基础配置",
+          text: "配置中心",
           items: [
-            { text: "系统配置", link: "/guide/system-settings" },
-            { text: "Emby 设置", link: "/guide/emby-settings" },
-            { text: "Telegram 基础配置", link: "/guide/telegram-basic" },
+            { text: "基础", link: "/guide/system-settings" },
+            { text: "主题", link: "/guide/theme-settings" },
+            { text: "通知", link: "/guide/admin-notifications" },
+            { text: "求片", link: "/guide/media-requests" },
+            { text: "Emby", link: "/guide/emby-settings" },
+            { text: "Telegram", link: "/guide/telegram-basic" },
           ],
         },
         {
-          text: "进阶配置",
+          text: "功能说明",
           items: [
             { text: "观看保号", link: "/guide/watch-keepalive" },
             { text: "Telegram Mini App", link: "/guide/telegram-mini-app" },
             { text: "Telegram 自定义指令", link: "/guide/telegram-custom-commands" },
-            { text: "求片功能", link: "/guide/media-requests" },
-            { text: "管理员通知", link: "/guide/admin-notifications" },
           ],
         },
         {

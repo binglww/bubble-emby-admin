@@ -2,7 +2,9 @@
 
 ## 启用条件
 
-`Telegram Mini App` 建立在 Telegram 基础配置之上。
+`Telegram Mini App` 配置位于后台 `配置中心` -> `Telegram` -> `Mini App 与用户入口`。
+
+`Telegram Mini App` 建立在 Telegram 基础连接之上。
 
 - `开启 Telegram 服务` 必须已启用
 - `Bot Token` 必须有效

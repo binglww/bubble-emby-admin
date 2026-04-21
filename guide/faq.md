@@ -10,9 +10,9 @@
 
 如需根据客户端信息自动禁用账号，可按以下步骤配置：
 
-1. 在 [系统配置](./system-settings.md) 的 `客户端黑名单` 中添加需要禁用的黑名单规则。
+1. 在 [基础](./system-settings.md) 的 `客户端黑名单` 中添加需要禁用的黑名单规则。
 2. 在 Emby 后台的通知中新增 `Webhook` 通知，并勾选 `用户`。
-3. Emby 通知使用的 `Webhook 地址` 可在本系统的 [Emby 设置](./emby-settings.md) 的 `Webhook 配置` 中获取。
+3. Emby 通知使用的 `Webhook 地址` 可在本系统的 [Emby](./emby-settings.md) 的 `Webhook 配置` 中获取。
 
 配置完成后，命中客户端黑名单规则的账号会被系统自动禁用。
 
@@ -46,9 +46,9 @@ docker compose logs -f app
 
 网页注册入口是否显示，通常与以下配置有关：
 
-- [系统配置](./system-settings.md) 中的 `开放网页使用` 是否已开启
+- [基础](./system-settings.md) 中的 `开放网页使用` 是否已开启
 - `开放用户注册` 是否已开启
-- `注册开放方式` 当前是否处于可注册时间段，或是否还有剩余额度
+- 普通注册的时间限制是否处于开放时间段，名额限制是否还有剩余额度
 - 是否只开启了 `邀请码注册`
 
 如果关闭了 `开放网页使用`，网页登录、网页注册、网页查看线路和网页续费都会不可用。
@@ -83,7 +83,7 @@ docker compose logs -f app
 
 常见原因如下：
 
-- [Emby 设置](./emby-settings.md) 中的 `Emby 地址` 或 `API Key` 配置不正确
+- [Emby](./emby-settings.md) 中的 `Emby 地址` 或 `API Key` 配置不正确
 - 系统虽然已经接入 Emby，但还没有在 `用户管理` 中手动执行 `同步用户`
 - 需要同步的用户当前并不存在于 Emby 中
 
@@ -93,7 +93,7 @@ docker compose logs -f app
 
 建议按以下顺序排查：
 
-1. 确认 [Emby 设置](./emby-settings.md) 中已开启 `启用 Emby Webhook`
+1. 确认 [Emby](./emby-settings.md) 中已开启 `启用 Emby Webhook`
 2. 确认 Emby 侧实际使用的是本系统生成的 `Webhook 地址`
 3. 确认 Emby 侧已经新增对应的 `Webhook` 通知，并勾选了业务所需事件
 4. 如果 Emby 和本系统都运行在 Docker 中，确认 `Webhook 地址` 中的主机名已替换为容器之间可访问的地址
@@ -120,7 +120,7 @@ docker compose logs -f app
 
 - Emby 没有安装或启用 `Playback Reporting` 插件
 - 插件里还没有累计到历史播放数据
-- [Emby 设置](./emby-settings.md) 中的连接配置异常，导致系统无法读取 Emby 数据
+- [Emby](./emby-settings.md) 中的连接配置异常，导致系统无法读取 Emby 数据
 
 如果只是历史统计为空，但实时会话正常，通常说明 `/Sessions` 可用，但 `Playback Reporting` 数据还没有准备好。
 
@@ -128,7 +128,7 @@ docker compose logs -f app
 
 建议依次检查以下配置：
 
-- [Telegram 基础配置](./telegram-basic.md) 中的 `开启 Telegram 服务` 是否已开启
+- [Telegram](./telegram-basic.md) 中的 `开启 Telegram 服务` 是否已开启
 - `Bot Token` 是否有效，保存后 `Bot 用户名` 是否已自动回填
 - 当前更新模式是 `Webhook` 还是 `Long Polling`
 - 使用 `Webhook` 模式时，`公网地址` 和 `Webhook Secret` 是否正确，是否已执行 `注册 Webhook`
@@ -152,7 +152,7 @@ Mini App 无法使用时，往往不是 Mini App 本身的问题，而是 Telegr
 - 线路本身是否开启了显示
 - 该线路是否设置为仅白名单用户可见
 - 当前用户是否满足对应的白名单条件
-- [系统配置](./system-settings.md) 中的 `开放网页使用` 是否已关闭
+- [基础](./system-settings.md) 中的 `开放网页使用` 是否已关闭
 
 如果关闭了 `开放网页使用`，网页侧的线路查看入口也会一起关闭。
 
@@ -160,8 +160,8 @@ Mini App 无法使用时，往往不是 Mini App 本身的问题，而是 Telegr
 
 管理员通知需要同时满足以下条件：
 
-- Telegram 设置中的 `通过 Telegram 接收管理员通知` 已开启
-- `通知配置` 页面中对应的管理员通知事件已开启
+- `配置中心` -> `Telegram` 中的 `通过 Telegram 接收管理员通知` 已开启
+- `配置中心` -> `通知` 中对应的管理员通知事件已开启
 - 管理员本人已经在 `个人设置` 中完成 Telegram 绑定
 - 管理员本人的 `我的通知接收` 中开启了对应事件
 

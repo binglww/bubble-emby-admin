@@ -1,8 +1,12 @@
-# Telegram 基础配置
+# Telegram
 
 ## 基础开关
 
-`Telegram 基础配置` 用于建立 Bot 连接和回调方式。
+`Telegram` 位于后台 `配置中心` 中，用于维护 Bot 连接、Mini App 与用户入口、自定义指令和管理员通知。
+
+后台入口：`配置中心` -> `Telegram`
+
+`基础配置` 分组用于建立 Bot 连接和回调方式。
 
 ### 开启 Telegram 服务
 
@@ -55,11 +59,10 @@
 - `Bot 用户名` 已自动回填
 - `Webhook` 模式下已完成 `注册 Webhook`
 
-## 相关进阶能力
+## 页面内能力
 
-完成基础配置后，可继续查看以下能力：
+`Telegram` 页面还包含以下配置分组：
 
 - [Telegram Mini App](/guide/telegram-mini-app)
 - [Telegram 自定义指令](/guide/telegram-custom-commands)
-- [求片功能](/guide/media-requests)
 - [管理员通知](/guide/admin-notifications)

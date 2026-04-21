@@ -56,7 +56,7 @@ docker exec -it bubble-emby-admin /app/bubble-emby-admin migrate v0.3.1-user-aut
 升级完成后，建议检查以下项目：
 
 - 后台是否可以正常登录
-- `系统配置`、`Emby 设置`、`Telegram 设置` 是否仍保留原有内容
+- `配置中心` 中的 `基础`、`主题`、`通知`、`求片`、`Emby`、`Telegram` 是否仍保留原有内容
 - 用户中心是否可以正常打开
 - Emby 和 Telegram 集成是否仍可正常使用
 
