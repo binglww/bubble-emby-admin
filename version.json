@@ -1,9 +1,9 @@
 {
-  "latest": "0.3.9",
+  "latest": "0.4.0",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.3.9",
-  "publishedAt": "2026-04-09T17:50:00+08:00",
+  "dockerTag": "0.4.0",
+  "publishedAt": "2026-04-21T17:00:00+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.3.9 请查看更新日志。"
+  "releaseNotes": "v0.4.0 新增保号规则，签到积分等功能，具体内容请查看更新日志。"
 }
