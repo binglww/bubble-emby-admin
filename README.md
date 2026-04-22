@@ -6,6 +6,7 @@
 <p align="center">
   <a href="#intro"><img src="https://img.shields.io/badge/Intro-%E4%BB%8B%E7%BB%8D-2563eb?style=for-the-badge" alt="介绍" /></a>
   <a href="#image"><img src="https://img.shields.io/badge/Image-%E9%95%9C%E5%83%8F%E4%BF%A1%E6%81%AF-7c3aed?style=for-the-badge" alt="镜像" /></a>
+  <a href="#docs"><img src="https://img.shields.io/badge/Docs-%E6%96%87%E6%A1%A3-0f766e?style=for-the-badge" alt="文档" /></a>
   <a href="#deploy"><img src="https://img.shields.io/badge/Deploy-%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F-ea580c?style=for-the-badge" alt="部署方式" /></a>
   <a href="#install"><img src="https://img.shields.io/badge/Install-%E5%AE%89%E8%A3%85-0891b2?style=for-the-badge" alt="安装" /></a>
   <a href="#upgrade"><img src="https://img.shields.io/badge/Upgrade-%E5%8D%87%E7%BA%A7-4f46e5?style=for-the-badge" alt="升级" /></a>
@@ -111,6 +112,16 @@
   - 设备分析与客户端分布
   - 基础风控与用户画像
 
+<a id="docs"></a>
+## 📚 文档
+
+- [完整文档](docs/index.md)
+- [安装指南](docs/guide/install.md)
+- [登录入口](docs/guide/login-entry.md)
+- [系统配置](docs/guide/system-settings.md)
+- [FAQ](docs/guide/faq.md)
+- [更新记录](docs/guide/changelog.md)
+
 <a id="image"></a>
 ## 📦 镜像信息
 
@@ -169,18 +180,34 @@ http://服务器IP:8668
 
 注意：
 
-- 不建议直接填写 `127.0.0.1`，容器内的 `127.0.0.1` 指向的是应用容器自己，不是宿主机数据库
+- Docker 部署时不建议直接填写 `127.0.0.1`，容器内的 `127.0.0.1` 指向的是应用容器自己，不是宿主机数据库
+- 安装程序会尝试创建数据库并执行迁移，数据库账号需要具备创建数据库和建表权限
 
 <a id="install"></a>
 ## 🔧 安装
 
-首次启动后，应用日志会输出一次性安装口令。可通过以下命令查看：
+首次启动后，应用日志会输出访问地址和一次性安装 Key。可通过以下命令查看：
 
 ```bash
 docker logs -f bubble-emby-admin
 ```
-访问地址：``` http://服务器IP:8668/install ``` 进行安装。
-后台管理地址：``` http://服务器IP:8668/admin/login ``` 
+
+日志示例：
+
+```text
+访问地址: http://127.0.0.1:8668
+一次性安装 Key: abc123
+```
+
+打开 `http://服务器IP:8668/install` 进入安装页。
+
+安装页中的 `一次性安装 Key` 只填写 Key 后面的字符串。例如日志显示 `一次性安装 Key: abc123`，这里只填写 `abc123`，不要复制 `一次性安装 Key:` 前缀。
+
+安装页还需要填写数据库信息、首个管理员账号和 `站点地址`。`站点地址` 默认取当前浏览器访问来源，用于生成 Emby Webhook 等外部回调地址；内网部署时建议填写 Emby、Webhook 或其他设备可访问的地址，例如 `http://192.168.1.10:8668`。
+
+安装提交后，系统会创建数据库、执行迁移、初始化首个管理员、写入 `/app/configs/config.yaml`，并尝试直接启用服务。如果页面提示服务未就绪，先刷新状态；长时间未就绪时重启后端容器。
+
+安装完成后，后台管理地址为 `http://服务器IP:8668/admin/login`。
 
 
 <a id="upgrade"></a>
@@ -198,4 +225,4 @@ docker compose -f docker-compose.mysql.yml up -d
 <a id="changelog"></a>
 ## 📝 更新日志
 
-详细变更记录见：[更新记录](./guide/changelog.md)
+详细变更记录见：[更新记录](docs/guide/changelog.md)

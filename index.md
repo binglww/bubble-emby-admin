@@ -9,7 +9,7 @@ hero:
     - theme: brand
       text: 查看指南
       link: /guide/system-overview
-
-
-features:
+    - theme: alt
+      text: 当前版本 0.4.1
+      link: /guide/changelog
 ---
