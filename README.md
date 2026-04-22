@@ -115,12 +115,12 @@
 <a id="docs"></a>
 ## 📚 文档
 
-- [完整文档](index.md)
-- [安装指南](guide/install.md)
-- [登录入口](guide/login-entry.md)
-- [系统配置](guide/system-settings.md)
-- [FAQ](guide/faq.md)
-- [更新记录](guide/changelog.md)
+- [完整文档](https://binglww.github.io/bubble-emby-admin/)
+- [安装指南](https://binglww.github.io/bubble-emby-admin/guide/install)
+- [登录入口](https://binglww.github.io/bubble-emby-admin/guide/login-entry)
+- [系统配置](https://binglww.github.io/bubble-emby-admin/guide/system-settings)
+- [FAQ](https://binglww.github.io/bubble-emby-admin/guide/faq)
+- [更新记录](https://binglww.github.io/bubble-emby-admin/guide/changelog)
 
 <a id="image"></a>
 ## 📦 镜像信息
@@ -225,4 +225,4 @@ docker compose -f docker-compose.mysql.yml up -d
 <a id="changelog"></a>
 ## 📝 更新日志
 
-详细变更记录见：[更新记录](guide/changelog.md)
+详细变更记录见：[更新记录](https://binglww.github.io/bubble-emby-admin/guide/changelog)
