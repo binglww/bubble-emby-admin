@@ -115,12 +115,12 @@
 <a id="docs"></a>
 ## 📚 文档
 
-- [完整文档](docs/index.md)
-- [安装指南](docs/guide/install.md)
-- [登录入口](docs/guide/login-entry.md)
-- [系统配置](docs/guide/system-settings.md)
-- [FAQ](docs/guide/faq.md)
-- [更新记录](docs/guide/changelog.md)
+- [完整文档](index.md)
+- [安装指南](guide/install.md)
+- [登录入口](guide/login-entry.md)
+- [系统配置](guide/system-settings.md)
+- [FAQ](guide/faq.md)
+- [更新记录](guide/changelog.md)
 
 <a id="image"></a>
 ## 📦 镜像信息
@@ -225,4 +225,4 @@ docker compose -f docker-compose.mysql.yml up -d
 <a id="changelog"></a>
 ## 📝 更新日志
 
-详细变更记录见：[更新记录](docs/guide/changelog.md)
+详细变更记录见：[更新记录](guide/changelog.md)
