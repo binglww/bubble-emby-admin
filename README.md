@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="docs/public/logo.jpg" alt="Bubble Emby Admin Logo" width="132" />
   <h1>Bubble Emby Admin</h1>
   <p>面向 Emby 管理场景的后台系统</p>
 </div>
