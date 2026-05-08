@@ -49,6 +49,7 @@ export default defineConfig({
             { text: "基础", link: "/guide/system-settings" },
             { text: "主题", link: "/guide/theme-settings" },
             { text: "通知", link: "/guide/admin-notifications" },
+            { text: "工单", link: "/guide/support-tickets" },
             { text: "求片", link: "/guide/media-requests" },
             { text: "Emby", link: "/guide/emby-settings" },
             { text: "Telegram", link: "/guide/telegram-basic" },

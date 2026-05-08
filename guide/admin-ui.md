@@ -44,6 +44,10 @@
 
 ![线路管理截图](/screenshots/admin/server-lines.png)
 
+### 工单管理
+
+
+
 ### 公告管理
 
 ![公告管理截图](/screenshots/admin/announcements.png)
@@ -52,7 +56,7 @@
 
 ### 配置中心
 
-配置中心统一管理基础、主题、通知、求片、Emby 和 Telegram 配置。
+配置中心统一管理基础、主题、通知、工单、求片、Emby 和 Telegram 配置。
 
 ### 基础
 
@@ -65,6 +69,10 @@
 ### 通知
 
 ![通知截图](/screenshots/admin/notifications.png)
+
+### 工单
+
+工单配置用于维护工单类型、启用状态、排序和 Telegram 接收管理员。
 
 ### 求片
 
