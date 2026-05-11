@@ -1,9 +1,9 @@
 {
-  "latest": "0.4.3",
+  "latest": "0.4.4",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.4.3",
-  "publishedAt": "2026-04-23T10:50:00+08:00",
+  "dockerTag": "0.4.4",
+  "publishedAt": "2026-05-11T17:30:00+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.4.3 新增工单系统，优化工作台，优化体验，具体内容请查看更新日志。"
+  "releaseNotes": "v0.4.4 新增 Emby媒体库，支持列表、改名、换封面、刷新和每日自动更换封面，具体内容请查看更新日志。"
 }
