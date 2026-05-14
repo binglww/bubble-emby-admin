@@ -1,9 +1,9 @@
 {
-  "latest": "0.4.4",
+  "latest": "0.4.5",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.4.4",
-  "publishedAt": "2026-05-11T17:30:00+08:00",
+  "dockerTag": "0.4.5",
+  "publishedAt": "2026-05-14T11:10:00+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.4.4 新增 Emby媒体库，支持列表、改名、换封面、刷新和每日自动更换封面，具体内容请查看更新日志。"
+  "releaseNotes": "v0.4.5 修复不显示 Emby媒体库、工单开关，具体内容请查看更新日志。"
 }
