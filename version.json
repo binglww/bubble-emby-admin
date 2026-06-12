@@ -1,9 +1,9 @@
 {
-  "latest": "0.4.5",
+  "latest": "0.4.6",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.4.5",
-  "publishedAt": "2026-05-14T11:10:00+08:00",
+  "dockerTag": "0.4.6",
+  "publishedAt": "2026-06-12T15:20:00+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.4.5 修复不显示 Emby媒体库、工单开关，具体内容请查看更新日志。"
+  "releaseNotes": "v0.4.6 新增用户备注、用户管理字段展示、实时会话过滤，具体内容请查看更新日志。"
 }
