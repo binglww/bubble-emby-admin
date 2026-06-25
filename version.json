@@ -1,9 +1,9 @@
 {
-  "latest": "0.4.6",
+  "latest": "0.4.7",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.4.6",
-  "publishedAt": "2026-06-12T15:20:00+08:00",
+  "dockerTag": "0.4.7",
+  "publishedAt": "2026-06-25T13:30:00+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.4.6 新增用户备注、用户管理字段展示、实时会话过滤，具体内容请查看更新日志。"
+  "releaseNotes": "v0.4.7 新增 Telegram WebApp 本地脚本加载、播放统计用户状态识别与异常用户筛选，具体内容请查看更新日志。"
 }
