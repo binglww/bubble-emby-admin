@@ -1,9 +1,9 @@
 {
-  "latest": "0.4.8",
+  "latest": "0.4.9",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.4.8",
-  "publishedAt": "2026-07-20T18:30:00+08:00",
+  "dockerTag": "0.4.9",
+  "publishedAt": "2026-07-22T15:34:19+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.4.8 新增用户组管理和用户组筛选/批量操作，用户管理日期支持直接输入并记忆排序，具体内容请查看更新日志。"
+  "releaseNotes": "v0.4.9 新增智能用户组与按用户组展示线路，支持规则自动归类和线路分组可见范围，具体内容请查看更新日志。"
 }
