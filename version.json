@@ -1,9 +1,9 @@
 {
-  "latest": "0.5.1",
+  "latest": "0.5.2",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.5.1",
-  "publishedAt": "2026-07-24T16:48:12+08:00",
+  "dockerTag": "0.5.2",
+  "publishedAt": "2026-07-27T17:45:00+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.5.1 新增线路健康检查，并修复热门剧集排行聚合与保号提示，具体内容请查看更新日志。"
+  "releaseNotes": "v0.5.2 新增观看保号未达标通知，优化会员到期处理任务说明，并修复异步任务详情显示，具体内容请查看更新日志。"
 }
