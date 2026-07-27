@@ -1,9 +1,9 @@
 {
-  "latest": "0.5.0",
+  "latest": "0.5.1",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.5.0",
-  "publishedAt": "2026-07-23T15:46:55+08:00",
+  "dockerTag": "0.5.1",
+  "publishedAt": "2026-07-24T16:48:12+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.5.0 新增用户组权益，可为用户组设置更高的求片次数和每日签到积分奖励，具体内容请查看更新日志。"
+  "releaseNotes": "v0.5.1 新增线路健康检查，并修复热门剧集排行聚合与保号提示，具体内容请查看更新日志。"
 }
