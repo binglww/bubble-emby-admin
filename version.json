@@ -1,9 +1,9 @@
 {
-  "latest": "0.5.2",
+  "latest": "0.5.3",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.5.2",
-  "publishedAt": "2026-07-27T17:45:00+08:00",
+  "dockerTag": "0.5.3",
+  "publishedAt": "2026-07-31T16:25:43+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.5.2 新增观看保号未达标通知，优化会员到期处理任务说明，并修复异步任务详情显示，具体内容请查看更新日志。"
+  "releaseNotes": "v0.5.3 新增积分商城和按用户组定向投放公告功能，优化部分界面，具体内容请查看更新日志。"
 }

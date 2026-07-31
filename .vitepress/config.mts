@@ -58,6 +58,7 @@ export default defineConfig({
         {
           text: "功能说明",
           items: [
+            { text: "积分商城", link: "/guide/points-shop" },
             { text: "观看保号", link: "/guide/watch-keepalive" },
             { text: "Telegram Mini App", link: "/guide/telegram-mini-app" },
             { text: "Telegram 自定义指令", link: "/guide/telegram-custom-commands" },
