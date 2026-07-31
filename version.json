@@ -1,9 +1,9 @@
 {
-  "latest": "0.5.3",
+  "latest": "0.5.4",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.5.3",
-  "publishedAt": "2026-07-31T16:25:43+08:00",
+  "dockerTag": "0.5.4",
+  "publishedAt": "2026-07-31T22:05:36+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.5.3 新增积分商城和按用户组定向投放公告功能，优化部分界面，具体内容请查看更新日志。"
+  "releaseNotes": "v0.5.4 新增用户中心积分记录查看，优化积分商城库存显示与积分信息展示。"
 }
