@@ -1,9 +1,9 @@
 {
-  "latest": "0.5.4",
+  "latest": "0.5.5",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.5.4",
-  "publishedAt": "2026-07-31T22:05:36+08:00",
+  "dockerTag": "0.5.5",
+  "publishedAt": "2026-08-01T15:43:38+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.5.4 新增用户中心积分记录查看，优化积分商城库存显示与积分信息展示。"
+  "releaseNotes": "v0.5.5 新增外部卡密导入支持，优化系统卡密批量导入，并修复商品编辑上下架及求片次数展示问题。"
 }
