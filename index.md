@@ -10,6 +10,6 @@ hero:
       text: 查看指南
       link: /guide/system-overview
     - theme: alt
-      text: 当前版本 0.5.4
+      text: 当前版本 0.5.6
       link: /guide/changelog
 ---

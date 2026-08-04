@@ -1,9 +1,9 @@
 {
-  "latest": "0.5.5",
+  "latest": "0.5.6",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.5.5",
-  "publishedAt": "2026-08-01T15:43:38+08:00",
+  "dockerTag": "0.5.6",
+  "publishedAt": "2026-08-04T17:30:00+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.5.5 新增外部卡密导入支持，优化系统卡密批量导入，并修复商品编辑上下架及求片次数展示问题。"
+  "releaseNotes": "v0.5.6 新增管理员积分调整通知及积分商城累计限购，支持批量购买、筛选搜索，并优化求片请求与图片加载性能。"
 }
