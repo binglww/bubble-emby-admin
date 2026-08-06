@@ -47,7 +47,8 @@ export default defineConfig({
           text: "配置中心",
           items: [
             { text: "基础", link: "/guide/system-settings" },
-            { text: "主题", link: "/guide/theme-settings" },
+            { text: "外观与主题", link: "/guide/theme-settings" },
+            { text: "首页模板", link: "/guide/homepage-templates" },
             { text: "通知", link: "/guide/admin-notifications" },
             { text: "工单", link: "/guide/support-tickets" },
             { text: "求片", link: "/guide/media-requests" },

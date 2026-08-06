@@ -2,6 +2,19 @@
 
 > 如遇到问题或有功能建议，请前往 [GitHub Issues](https://github.com/binglww/bubble-emby-admin/issues) 反馈。
 
+## 0.5.7
+
+发布日期：`2026-08-06`
+
+### 新增
+
+- 新增 [首页模板](/guide/homepage-templates) 功能，模版为可选配置请自行下载安装 [Bubble Emby System Template](https://github.com/binglww/bubble-emby-system-template) ，可在后台「配置中心 → 外观 → 首页模板」上传 ZIP 模板包
+
+### 调整
+
+- 后台 `配置中心` 中的 `主题` 更名为 `外观`
+- 启用首页模板后，网站根路径 `/` 展示自定义首页；用户登录 `/login`、管理员登录 `/admin/login` 及用户中心地址保持不变
+
 ## 0.5.6
 
 发布日期：`2026-08-04`

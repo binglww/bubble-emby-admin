@@ -9,6 +9,9 @@
 - 当前数据库是否正常可用
 - `docker-data/configs` 和 `docker-data/data` 是否已经正常挂载
 
+如果已经安装首页模板，升级前必须把数据库与 `docker-data/data/uploads/homepage` 作为同一组数据进行备份。数据库保存模板清单和启用状态，文件目录保存解压后的 HTML、CSS、JS、图片、字体与视频；只备份其中一项无法完整恢复首页。
+
+
 如果当前通过 `docker-compose.mysql.yml` 部署，升级命令需要继续使用该文件。使用外部 MySQL 时，升级命令应使用 `docker-compose.yml`。
 
 ## 常规升级
@@ -56,7 +59,9 @@ docker exec -it bubble-emby-admin /app/bubble-emby-admin migrate v0.3.1-user-aut
 升级完成后，建议检查以下项目：
 
 - 后台是否可以正常登录
-- `配置中心` 中的 `基础`、`主题`、`通知`、`求片`、`Emby`、`Telegram` 是否仍保留原有内容
+- `配置中心` 中的 `基础`、`外观`、`通知`、`求片`、`Emby`、`Telegram` 是否仍保留原有内容
+- 如果使用首页模板，访问 `/` 是否显示当前模板，模板内的 CSS、JS、图片、字体和视频是否可以加载
+- `/login`、`/admin/login` 和用户中心是否仍可正常打开
 - 用户中心是否可以正常打开
 - Emby 和 Telegram 集成是否仍可正常使用
 
