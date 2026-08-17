@@ -2,9 +2,9 @@
 
 > 如遇到问题或有功能建议，请前往 [GitHub Issues](https://github.com/binglww/bubble-emby-admin/issues) 反馈。
 
-## 0.5.7
+## 0.5.8
 
-发布日期：`2026-08-06`
+发布日期：`2026-08-17`
 
 ### 新增
 
