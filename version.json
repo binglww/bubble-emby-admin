@@ -1,9 +1,9 @@
 {
-  "latest": "0.5.7",
+  "latest": "0.5.8",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.5.7",
-  "publishedAt": "2026-08-06T13:50:00+08:00",
+  "dockerTag": "0.5.8",
+  "publishedAt": "2026-08-17T16:31:00+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.5.7 新增自定义公开首页模板。详细说明请查看更新日志。"
+  "releaseNotes": "v0.5.8 新增管理员操作日志、权限模板媒体库配置和额外媒体库。详细说明请查看更新日志。"
 }
