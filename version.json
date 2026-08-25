@@ -1,9 +1,9 @@
 {
-  "latest": "0.5.8",
+  "latest": "0.5.9",
   "channel": "stable",
   "dockerImage": "bubbleemby/bubble-emby-admin",
-  "dockerTag": "0.5.8",
-  "publishedAt": "2026-08-17T16:31:00+08:00",
+  "dockerTag": "0.5.9",
+  "publishedAt": "2026-08-25T16:30:00+08:00",
   "notesUrl": "https://binglww.github.io/bubble-emby-admin/guide/changelog",
-  "releaseNotes": "v0.5.8 新增管理员操作日志、权限模板媒体库配置和额外媒体库。详细说明请查看更新日志。"
+  "releaseNotes": "v0.5.9 支持下架后删除积分商品和未使用卡密库存、删除已完成的 Telegram 私信通知记录，并修复 IPv6 地址显示重叠问题。详细说明请查看更新日志。"
 }
